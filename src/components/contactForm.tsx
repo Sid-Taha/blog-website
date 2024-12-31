@@ -114,7 +114,7 @@ export default function ContactForm() {
                   <Input
                     placeholder="Your name"
                     className="border-0 border-b-2 border-[#A91079] rounded-none px-0 focus-visible:ring-0"
-                    name='name' value={name} onChange={(e) => setEmail(e.target.value)}
+                    name='name' value={name} onChange={(e) => setName(e.target.value)}
                   />
                 </div>
                 <div className="space-y-1">
